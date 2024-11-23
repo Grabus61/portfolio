@@ -3,7 +3,7 @@ import './App.css'
 function App() {
   return (
     <>
-      Under Development
+      In Development
     </>
   )
 }
