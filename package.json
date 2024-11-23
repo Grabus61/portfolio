@@ -1,7 +1,7 @@
 {
-  "homepage": "https://grabus61.github.io/portfolio/",
+  "homepage": "https://grabus61.github.io/portfolio",
   "name": "portfolio",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
