@@ -7,7 +7,7 @@ const projects = [
   {
     id: 1,
     title: "Twins And Dreams",
-    image: "/images/projects/twins-image.jpg",
+    image: "/portfolio/images/projects/twins-image.jpg",
     description: {
       tr: "Unity ile geliştirdiğim 2D puzzle-platform oyununda, oyuncular ikiz karakterleri kontrol ederek zorlu bulmacaları çözüyor. Oyun mekaniğini ve karakter kontrollerini sıfırdan geliştirdim, düşman AI sistemini tasarladım ve kodladım. Seviye tasarımını ve zorluk dengesini optimize ederek oyuncular için akıcı bir deneyim oluşturdum. Performans optimizasyonları yaparak mobil cihazlarda sorunsuz çalışmasını sağladım.",
       en: "In this 2D puzzle-platform game developed with Unity, players control twin characters to solve challenging puzzles. I developed the game mechanics and character controls from scratch, designed and coded the enemy AI system. I optimized the level design and difficulty balance to create a smooth experience for players. I also made performance optimizations to ensure smooth operation on mobile devices."
@@ -39,7 +39,7 @@ const projects = [
   {
     id: 2,
     title: "Miss Katy: Royal Detective",
-    image: "/images/projects/katy-image.png",
+    image: "/portfolio/images/projects/katy-image.png",
     description: {
       tr: "Miss Katy: Royal Detective, gizli obje bulma temalı bir bulmaca oyunu. Oyunun temel mekaniklerini geliştirdim ve obje tanıma sistemini tasarladım. UI/UX tasarımını ve implementasyonunu yaparak kullanıcı dostu bir arayüz oluşturdum. Başarı ve görev sistemlerini kodlayarak oyuncuların motivasyonunu artıracak özellikler ekledim. Oyunun optimizasyonunu yaparak geniş bir cihaz yelpazesinde çalışmasını sağladım.",
       en: "Miss Katy: Royal Detective is a hidden object puzzle game. I developed the core game mechanics and designed the object recognition system. I created a user-friendly interface by designing and implementing the UI/UX. I added features to increase player motivation by coding achievement and quest systems. I optimized the game to work on a wide range of devices."
