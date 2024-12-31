@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "projects": "Projects",
+    "skills": "Skills"
+  },
+  "hero": {
+    "title": "Game Developer",
+    "description": "A passionate game developer creating creative game experiences with Unity and C#"
+  },
+  "sections": {
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "project": {
+    "technologies": "Technologies",
+    "features": "Features"
+  },
+  "contact": {
+    "getInTouch": "Get in Touch",
+    "sendEmail": "Send Email",
+    "emailSubject": "Contact from Portfolio Website"
+  },
+  "errors": {
+    "loadingProjects": "An error occurred while loading projects. Please refresh the page."
+  },
+  "navigation": {
+    "backToProjects": "Back to Projects"
+  }
+} 

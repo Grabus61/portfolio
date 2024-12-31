@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "projects": "Projeler",
+    "skills": "Yetenekler"
+  },
+  "hero": {
+    "title": "Oyun Geliştirici",
+    "description": "Unity ve C# ile yaratıcı oyun deneyimleri geliştiren tutkulu bir oyun geliştiricisi"
+  },
+  "sections": {
+    "projects": "Projeler",
+    "skills": "Yetenekler",
+    "contact": "İletişim"
+  },
+  "project": {
+    "technologies": "Teknolojiler",
+    "features": "Özellikler"
+  },
+  "contact": {
+    "getInTouch": "İletişime Geç",
+    "sendEmail": "E-posta Gönder",
+    "emailSubject": "Portföy Sitesinden İletişim",
+    "name": "İsim",
+    "email": "E-posta",
+    "message": "Mesaj",
+    "namePlaceholder": "İsminizi girin",
+    "emailPlaceholder": "E-posta adresinizi girin",
+    "messagePlaceholder": "Mesajınızı yazın...",
+    "send": "Gönder"
+  },
+  "errors": {
+    "loadingProjects": "Projeler yüklenirken bir hata oluştu. Lütfen sayfayı yenileyin."
+  },
+  "navigation": {
+    "backToProjects": "Projelere Geri Dön"
+  }
+} 
