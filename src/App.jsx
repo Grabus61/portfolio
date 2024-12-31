@@ -6,7 +6,7 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/portfolio">
       <div className="bg-primary min-h-screen text-white">
         <Navbar />
         <Routes>
