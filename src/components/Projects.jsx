@@ -9,8 +9,8 @@ const projects = [
     title: "Twins And Dreams",
     image: "/portfolio/images/projects/twins-image.jpg",
     description: {
-      tr: "Unity ile geliştirdiğim 2D puzzle-platform oyununda, oyuncular ikiz karakterleri kontrol ederek zorlu bulmacaları çözüyor. Oyun mekaniğini ve karakter kontrollerini sıfırdan geliştirdim, düşman AI sistemini tasarladım ve kodladım. Seviye tasarımını ve zorluk dengesini optimize ederek oyuncular için akıcı bir deneyim oluşturdum. Performans optimizasyonları yaparak mobil cihazlarda sorunsuz çalışmasını sağladım.",
-      en: "In this 2D puzzle-platform game developed with Unity, players control twin characters to solve challenging puzzles. I developed the game mechanics and character controls from scratch, designed and coded the enemy AI system. I optimized the level design and difficulty balance to create a smooth experience for players. I also made performance optimizations to ensure smooth operation on mobile devices."
+      tr: "Unity ile geliştirilen 2D puzzle oyununda, oyuncular ikiz karakterleri kontrol ederek zorlu bulmacaları çözüyor. Oyunun geliştirme sürecine sonradan dahil oldum, projenin güncellenmesinde çalıştım. Seviye tasarımını ve zorluk dengesini optimize ederek oyuncular için akıcı bir deneyim oluşturdum. Güncellemenin mobil ve PC platformlarında yayınlanması için gerekli iyileştirmeleri ve gereklilikleri geliştirdim.",
+      en: "In a 2D puzzle game developed with Unity, players control twin characters to solve challenging puzzles. I joined the development process later and worked on updating the project. I optimized level design and difficulty balancing to create a smooth and engaging experience for players. I also implemented the necessary improvements and requirements to successfully publish the update on both mobile and PC platforms."
     },
     technologies: ["Unity", "C#", "Mobile"],
     features: {
@@ -28,10 +28,10 @@ const projects = [
       ]
     },
     links: {
-      playStore: "https://play.google.com/store/apps/details?id=com.example",
-      appStore: "https://apps.apple.com/app/id123456789",
-      steam: null,
-      itch: "https://example.itch.io/game",
+      playStore: "https://play.google.com/store/apps/details?id=com.moralabs.twins&hl=tr",
+      appStore: "https://apps.apple.com/tr/app/twins-dreams/id1664344671",
+      steam: "https://store.steampowered.com/app/3403150/Twins__Dreams/",
+      itch: null,
       demo: null,
       github: null
     }
@@ -41,8 +41,8 @@ const projects = [
     title: "Miss Katy: Royal Detective",
     image: "/portfolio/images/projects/katy-image.png",
     description: {
-      tr: "Miss Katy: Royal Detective, gizli obje bulma temalı bir bulmaca oyunu. Oyunun temel mekaniklerini geliştirdim ve obje tanıma sistemini tasarladım. UI/UX tasarımını ve implementasyonunu yaparak kullanıcı dostu bir arayüz oluşturdum. Başarı ve görev sistemlerini kodlayarak oyuncuların motivasyonunu artıracak özellikler ekledim. Oyunun optimizasyonunu yaparak geniş bir cihaz yelpazesinde çalışmasını sağladım.",
-      en: "Miss Katy: Royal Detective is a hidden object puzzle game. I developed the core game mechanics and designed the object recognition system. I created a user-friendly interface by designing and implementing the UI/UX. I added features to increase player motivation by coding achievement and quest systems. I optimized the game to work on a wide range of devices."
+      tr: "Miss Katy: Royal Detective, gizli obje bulma temalı bir bulmaca oyunu. Oyunun pazarlanması için bir oynanabilir reklam geliştirdim. Oyunun içinde olmayan ama oyunu yansıtan bir kesiti sıfırdan Cococ Creator kullanarak oyunlaştırarak facebook ads ile yayınlanmaya uygun bir oynanabilir reklam oluşturdum.",
+      en: "Miss Katy: Royal Detective is a hidden object puzzle game. I developed a playable ad for marketing purposes. Using Cococ Creator, I designed and gamified a short interactive experience from scratch that reflects the core theme of the game, even though it doesn't exist within the actual gameplay. The ad was tailored to meet the requirements for Facebook Ads and was fully optimized for publishing."
     },
     technologies: ["Cocos Creator", "Playable Ads", "Typescript", "Mobile"],
     features: {
@@ -60,12 +60,76 @@ const projects = [
       ]
     },
     links: {
+      playStore: "https://play.google.com/store/apps/details?id=com.moralabs.katy&hl=tr",
+      appStore: "https://apps.apple.com/tr/app/detective-katy-hidden-objects/id1645253707",
+      steam: null,
+      itch: null,
+      demo: null,
+      github: null
+    }
+  },
+  {
+    id: 3,
+    title: "Grid 3",
+    image: "/portfolio/images/projects/grid3-image.png",
+    description: {
+      tr: "Grid 3, Grid 16 oyunun basit bir kopyasıdır. Bu oyunda, oyuncu birçok oyun arasında hızlıca geçiş yaparak maksimum puan elde etmeye çalışır. Oyunu, merak ettiğim için Unity ile birkaç günde geliştirdim. Oyunun temel mekaniğini öğrenmek adına güzel bir proje olduğunu düşünüyorum.",
+      en: "Grid 3 is a simple clone of the game Grid 16. In this game, the player rapidly switches between multiple mini-games, trying to achieve the highest possible score. I developed it in a few days using Unity, mainly out of curiosity. I consider it a great project for understanding and learning the core mechanics behind the original game."
+    },
+    technologies: ["Unity", "C#", "PC"],
+    features: {
+      tr: [
+        "Hızlı oyun geçişleri",
+        "Çeşitli mini oyunlar",
+        "Sürekli hızlanan oyun",
+        "Oyun geçişlerinde zorluk artışı"
+      ],
+      en: [
+        "Fast-paced game switching",
+        "Variety of mini-games",
+        "Continuously increasing speed",
+        "Rising difficulty with each game switch"
+      ]
+    },
+    links: {
       playStore: null,
       appStore: null,
       steam: null,
-      itch: null,
-      demo: "https://demo.com",
-      github: "https://github.com"
+      itch: "https://grabus.itch.io/grid3",
+      demo: null,
+      github: "https://github.com/Grabus61/grid-game"
+    }
+  },
+  {
+    id: 4,
+    title: "Amorf Evolution",
+    image: "/portfolio/images/projects/amorf-image.png",
+    description: {
+      tr: "Amorf Evolution, üniversite oyun geliştirme topluluğunun düzenlediği 48 saatlik game jam etkinliğinde geliştirdiğimiz bir oyundur. Proje ile game jamde 2. olduk. Önemli bir deneyim ve hızlı oyun geliştirme becerilerimi geliştirmeme yardımcı oldu. Karakterimiz insanlık tarafından, evrimleşen su yaratıklarının olduğu bir gezegene evrimi durdurmak için gönderilmiş bir savaş robotu. Karşısına çıkan ve çok da akıllı olmayan su canlılarıyla savaşıp, en sonunda kendi istediğini mi yoksa insanlığın ondan talep ettiklerini mi gerçekleştirecek?",
+      en: "Amorf Evolution is a game we developed during a 48-hour game jam organized by our university's game development community. The project earned us 2nd place in the jam. It was a valuable experience that helped me improve my rapid game development skills. In the game, the player controls a combat robot sent by humanity to a planet inhabited by evolving aquatic creatures. The robot's mission is to stop the course of evolution. As it battles the not-so-intelligent water beings standing in its way, it faces a critical choice: will it fulfill its own will, or carry out the orders given by humanity?"
+    },
+    technologies: ["Unity", "C#", "PC", "Mixamo Animations", "3D", "FPS"],
+    features: {
+      tr: [
+        "FPS kontrolleri",
+        "Ufak hikaye anlatımı",
+        "Ateş etme mekaniği",
+        "Finalde seçime bağlı son"
+      ],
+      en: [
+        "FPS controls",
+        "Brief storytelling",
+        "Shooting mechanic",
+        "Choice-based ending"
+      ]
+    },
+    links: {
+      playStore: null,
+      appStore: null,
+      steam: null,
+      itch: "https://grabus.itch.io/amorf-evolution",
+      demo: null,
+      github: null
     }
   }
 ];

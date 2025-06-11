@@ -51,22 +51,6 @@ function Hero() {
           >
             <FaGithub />
           </a>
-          <a 
-            href="https://www.linkedin.com/in/bugragedikli/" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="text-2xl text-gray-400 hover:text-accent transition-colors duration-300"
-          >
-            <FaLinkedin />
-          </a>
-          <a 
-            href="https://x.com/bugragedikli_" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="text-2xl text-gray-400 hover:text-accent transition-colors duration-300"
-          >
-            <FaXTwitter />
-          </a>
         </motion.div>
       </div>
     </motion.section>
